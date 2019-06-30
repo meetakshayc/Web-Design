@@ -1,0 +1,434 @@
+body {
+  background-image: url("../IMAGES/bangkok-city.jpg");
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {
+  width: 100%;
+  position: absolute;
+  background-color: #354960;
+  top: 0;
+  left: 0;
+  height: 9.7%;
+  overflow: hidden;
+}
+
+header hgroup {
+  float: left;
+  width: 40%;
+}
+hgroup h1 {
+  line-height: 0.9em;
+  font-weight: lighter;
+}
+h1 {
+  text-align: center;
+  font-size: 2.3em;
+}
+
+.nav-space {
+  width: 10%;
+  float: left;
+  margin: 7px;
+}
+
+header nav {
+  width: 50%
+  float: right;
+}
+
+.navHome {
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+  padding: 30px 50px 30px 50px;
+  background-color: #041d2f;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li{
+  float: left;
+  margin: 10px 50px 30px 50px;
+  font-size: 1.4em;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  position: absolute;
+  width: 50%;
+  top: 50%;
+  left: 25%;
+}
+
+.home h1{
+  background-color: #a36506;
+  border: 1px solid white;
+  font-weight: lighter;
+  padding: 30px;
+  margin: 0;
+}
+
+.home p{
+  background-color: #041d2f;
+  border: 1px solid white;
+  height: 30%;
+  font-size: 1.25em;
+  padding: 60px 40px;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+.home p a{
+  color: #00FFFF;
+}
+
+.home-background {
+  position: absolute;
+  width: 52%;
+  top: 55%;
+  height: 54%;
+  left: 24%;
+  background-color: white;
+  z-index: -1;
+}
+
+footer{
+  position: absolute;
+  right: 3%;
+  top: 125%;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0,0,0, 0.4);
+}
+
+/* ABOUT PAGE CSS START*/
+.navAbout {
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+  padding: 30px 50px 30px 50px;
+  background-color: #041d2f;
+}
+
+.about h2 {
+  font-size: 1.6em;
+  font-weight: lighter;
+  color: black;
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+.about .sectionOne {
+  position: absolute;
+  width: 80%;
+  top: 45%;
+  left: 10%;
+  right: 10%;
+}
+
+.about .sectionOne h2 {
+  position: relative;
+  background-color: white;
+  width: 39%;
+  padding: 25px 20px 70px 40px;
+}
+
+.about .sectionOne .one h2 {
+  float: left;
+  left: 3%;
+}
+
+.about .sectionOne .two h2 {
+  float: right;
+  right: 3%;
+}
+
+.about .sectionOne p {
+  position: absolute;
+  top: 45%;
+  width: 34%;
+  background-color: #041d2f;
+  padding: 40px 40px;
+  border: 1px solid white;
+}
+
+.about .sectionOne .one p {
+  left: 4.75%;
+}
+
+.about .sectionOne .two p {
+  right: 4.75%;
+}
+
+.about .sectionTwo {
+  position: absolute;
+  width: 80%;
+  top: 92.5%;
+  left: 10%;
+  right: 10%;
+}
+
+.about .sectionTwo .one {
+  position: relative;
+  background-color: white;
+  width: 39%;
+  color: black;
+  float: left;
+  left: 3%;
+  padding: 15px 20px 20px 40px;
+}
+
+.about .sectionTwo .two{
+  position: relative;
+  background-color: white;
+  width: 39%;
+  color: black;
+  float: right;
+  right: 3%;
+  padding: 15px 20px 50px 40px;
+}
+
+.about .sectionTwo p {
+  padding-right: 30px;
+}
+
+.about .sectionThree {
+  position: absolute;
+  width: 80%;
+  top: 125%;
+  left: 10%;
+  right: 10%;
+}
+
+.about .sectionThree p, .sectionFour p {
+  padding: 35px;
+  border: 1px solid white;
+}
+
+.about .sectionThree .paraOne{
+  position: relative;
+  float: left;
+  width: 22%;
+  left: 3%;
+  background-color: #a36506;
+}
+
+.about .sectionThree .paraTwo{
+  position: relative;
+  width: 22%;
+  float: left;
+  left: 8%;
+  background-color: #041d2f;
+}
+
+.about .sectionThree .paraThree{
+  position: relative;
+  float: right;
+  width: 22%;
+  right: 3%;
+  background-color: #a36506;
+}
+
+.about .sectionFour {
+  position: absolute;
+  width: 80%;
+  top: 157.5%;
+  left: 10%;
+  right: 10%;
+}
+
+.about .sectionFour .paraOne{
+  position: relative;
+  float: left;
+  width: 22%;
+  left: 3%;
+  background-color: #041d2f;
+}
+
+.about .sectionFour .paraTwo{
+  position: relative;
+  width: 22%;
+  float: left;
+  left: 8%;
+  background-color: white;
+  color: black;
+}
+
+.about .sectionFour .paraThree{
+  position: relative;
+  float: right;
+  width: 22%;
+  right: 3%;
+  background-color: #041d2f;
+  padding-bottom:65px;
+}
+
+.aboutFooter {
+  position: absolute;
+  right: 3%;
+  top: 205%;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0,0,0, 0.4);
+}
+/* ABOUT PAGE CSS END */
+
+/* GALLERY PAGE CSS END */
+.navGallery {
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+  padding: 30px 50px 30px 50px;
+  background-color: #041d2f;
+}
+
+.gallery .sectionTwo,  .sectionThree, .sectionFive, .sectionSix{
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  right: 10%;
+}
+
+.sectionOne .gallery-background{
+  position: absolute;
+  width: 38%;
+  top: 46%;
+  height: 15%;
+  left: 12%;
+  background-color: white;
+  z-index: -1;
+}
+
+.sectionOne h1{
+  position: absolute;
+  text-align: left;
+  width: 68%;
+  top: 43.75%;
+  height: 8.5%;
+  left: 14%;
+  background-color: #041d2f;
+  border: 1px solid white;
+  font-weight: lighter;
+  font-size: 2.2em;
+  padding-top: 31px;
+  padding-left: 60px;
+}
+
+.gallery .sectionTwo {
+  top: 65%;
+}
+
+.gallery .sectionThree {
+  top: 96%;
+}
+
+.sectionFour .gallery-background{
+  position: absolute;
+  width: 38%;
+  top: 135%;
+  height: 15%;
+  left: 12%;
+  background-color: white;
+  z-index: -1;
+}
+
+.sectionFour h1{
+  position: absolute;
+  text-align: left;
+  width: 68%;
+  top: 132.75%;
+  height: 8.5%;
+  left: 14%;
+  background-color: #041d2f;
+  border: 1px solid white;
+  font-weight: lighter;
+  font-size: 2.2em;
+  padding-top: 31px;
+  padding-left: 60px;
+}
+
+.gallery .sectionFive {
+  top: 154%;
+}
+
+.gallery .sectionSix {
+  top: 183.5%;
+}
+
+.gallery .sectionTwo img, .sectionThree img {
+  width: 28%;
+  height: 225px;
+  border: 8px solid white;
+}
+
+.gallery .sectionFive img{
+  width: 44%;
+  height: 225px;
+}
+
+.gallery .sectionSix img{
+  width: 21%;
+  height: 225px;
+}
+
+.gallery .sectionTwo .imgOne, .sectionThree .imgOne, .sectionFive .imgOne, .sectionSix .imgOne{
+  position: relative;
+  float: left;
+  left: 5%;
+}
+
+.gallery .sectionTwo .imgTwo, .sectionThree .imgTwo{
+  position: relative;
+  float: left;
+  left: 6%;
+}
+
+.gallery .sectionSix .imgTwo{
+  position: relative;
+  float: left;
+  left: 7%;
+}
+
+.gallery .sectionSix .imgThree{
+  position: relative;
+  float: left;
+  left: 9%;
+}
+
+.gallery .sectionTwo .imgThree, .sectionThree .imgThree, .sectionFive .imgTwo, .sectionSix .imgFour{
+  position: relative;
+  float: right;
+  right: 5%;
+}
+
+.galleryFooter {
+  position: absolute;
+  right: 3%;
+  top: 225%;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0,0,0, 0.4);
+}
+/* GALLERY PAGE CSS END */
+
+/* CONTACT PAGE CSS END */
+.navContact {
+  text-align: center;
+  margin: -20px 0px 0px 0px;
+  padding: 30px 50px 30px 50px;
+  background-color: #041d2f;
+}
+/* CONTACT PAGE CSS END */
