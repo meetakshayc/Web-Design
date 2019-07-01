@@ -431,4 +431,81 @@ footer{
   padding: 30px 50px 30px 50px;
   background-color: #041d2f;
 }
+
+.contactHeader{
+  position: absolute;
+  width: 68%;
+  top: 42%;
+  height: 9%;
+  left: 15%;
+  background-color: white;
+  color: black;
+  font-weight: lighter;
+  font-size: 2.5em;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+.contact .sectionOne {
+  position: absolute;
+  width: 70%;
+  top: 63%;
+  height: 52%;
+  left: 15%;
+  background-color: #041d2f;
+}
+
+.contact .divOne {
+  float: left;
+  width: 45%;
+  padding: 2px 30px;
+}
+
+.contact .divOne p, address {
+  font-size: 1.3em;
+  line-height: 1.7em;
+}
+
+.contact .formClass{
+  float: right;
+  width: 40%;
+  padding: 20px 30px;
+  padding-top: 30px;
+}
+
+.contact .formClass #name, #email{
+  width: 90%;
+  padding: 15px;
+  height: 15px;
+}
+.contact .formClass #message{
+  padding: 12px 18.5px;
+}
+.contact .formClass #name, #email, #message{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.contact .formClass #send{
+  width: 35%;
+  height: 50px;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.4em;
+  background-color: #a36506;
+  border: 0px;
+  color: white;
+}
+
+.contactFooter {
+  position: absolute;
+  right: 3%;
+  top: 137%;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  text-align: center;
+  padding: 10px;
+  background-color: rgba(0,0,0, 0.4);
+}
 /* CONTACT PAGE CSS END */
